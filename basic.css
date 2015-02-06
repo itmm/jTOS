@@ -1,0 +1,53 @@
+body {
+	background-image: url(back.jpg);
+	background-size: cover;
+	font-family: "PT Serif";
+	font-size: 14pt;
+	color: #ffe5af;
+	padding: 30pt;
+}
+h1 {
+	font-family: "PT Serif Caption";
+	font-size: 52pt;
+	color: rgba(255, 229, 175, .3);
+	position: absolute;
+	top: 30%;
+	text-align: center;
+	width: 100%;
+}
+.nav {
+	list-style: none;
+}
+.button {
+	border: 1pt solid white;
+	border-radius: 3px;
+	padding: 2pt 8pt 4pt 8pt;
+	margin-right: 5pt;
+}
+.nav li {
+	padding: 0 0 20pt 0;
+}
+.shortcut {
+	position: relative;
+	top: 10pt;
+	border: 1pt solid white;
+	margin-right: -4pt;
+	border-radius: 6pt;	
+	padding:  0 4pt 0 4pt;
+	background-color: orange;
+	font-size: 10pt;
+	color: black;
+	font-weight: bold;
+}
+.shortcut.disabled {
+	color: #aaa;
+	background-color: #555;
+}
+
+.contact {
+	border: #ffe5af 1pt solid;
+	border-color: 4pt;
+	width: 200pt;
+	padding: 0 0 20pt 10pt;
+	background-color: rgba(255, 255, 255, 0.1)
+}
